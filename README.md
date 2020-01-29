@@ -5,26 +5,25 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+#Requiremente
+* ruby 2.5.1 
+* rails 6.0.2.1 
+* PostgreSQL (12.1)
+* Bundler 2.1.2
+* Gem 3.1.2
+* 
 
 ```
-$ ruby 2.5.1 
+$ 
 $ rails 6.0.2.1 
 $ PostgreSQL (12.1)
 ```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#Usage
+```
+$ git clone https://github.com/<user_name>/<project_name>.git
+$ cd <project_dir>
+$ bundle install
+$ bin/rails db:migrate
+$ bin/rails s
+```
