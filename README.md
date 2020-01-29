@@ -12,7 +12,7 @@
 
 # Usage
 ```
-$ git clone https://github.com/<user_name>/<project_name>.git
+$ git clone https://github.com/daisuke-miyazoe/tweet_application.git
 $ cd <project_dir>
 $ bundle install
 $ bin/rails db:migrate
