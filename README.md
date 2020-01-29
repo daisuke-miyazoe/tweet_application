@@ -7,9 +7,11 @@ Things you may want to cover:
 
 * Ruby version
 
-```$ ruby 2.5.1 
+```
+$ ruby 2.5.1 
 $ rails 6.0.2.1 
-$ PostgreSQL (12.1)```
+$ PostgreSQL (12.1)
+```
 
 * System dependencies
 
