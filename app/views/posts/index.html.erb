@@ -1,0 +1,14 @@
+<section class="container-fluid">
+ 
+    <div class="row">
+      
+      <% @posts.each do |post| %>
+        <% hogehoge = rand(10)+1 %>
+        <p class="col-3 p-12">
+          <font size="<%= hogehoge %>"><%= post.content %></font>
+        </p>
+      <% end %>
+        
+    </div>
+  
+</section>
